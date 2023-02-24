@@ -16,7 +16,7 @@ const Home = () => {
             <Container>
                 <Stack gap={2}>
                     <Row className="justify-content-center text-center pt-3">
-                        <Col xs={8} style={{ "backgroundColor": "rgba(55, 207, 181, 0.60)", "borderRadius": "1.5em", "box-shadow": "0px 0px 1px 2px lightgrey" }} >
+                        <Col xs={8} style={{ "backgroundColor": "rgba(55, 207, 181, 0.60)", "borderRadius": "1.5em", "boxShadow": "0px 0px 1px 2px lightgrey" }} >
                             <h3 className="pt-5 text-white">Your</h3>
                             <h1 className="text-white">Top 10</h1>
                             <h3 className="text-white">Spotify Songs</h3>

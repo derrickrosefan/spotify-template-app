@@ -17,7 +17,7 @@ const Login = () => {
                 "height": "100%"
             }} >
                 <Col xs={5}>
-                    <div style={{ "backgroundColor": "rgba(55, 207, 181, 0.60)", "borderRadius": "1.5em", "box - shadow": "0px 0px 1px 2px lightgrey" }}>
+                    <div style={{ "backgroundColor": "rgba(55, 207, 181, 0.60)", "borderRadius": "1.5em", "boxShadow": "0px 0px 1px 2px lightgrey" }}>
                         < h2 className="text-white pt-5">API University</h2>
                         <Button variant="secondary mb-5" href={AUTH_URL}>Login!</Button>
 
